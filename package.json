@@ -1,0 +1,38 @@
+{
+  "name": "varan",
+  "version": "0.1.0",
+  "description": "in memory storage with sql support",
+  "main": "lib/store.js",
+  "scripts": {
+    "test": "vows test/*"
+  },
+  "dependences": {
+    "z-lib-core": "*",
+    "z-lib-math": "*"
+  },
+  "devDependencies": {
+    "vows": "*",
+    "assert": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zibx/varan.git"
+  },
+  "keywords": [
+    "memory storage",
+    "sql",
+    "filter",
+    "group",
+    "sort",
+    "tree"
+  ],
+  "author": "Zibx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zibx/varan/issues"
+  },
+  "homepage": "https://github.com/Zibx/varan",
+  "directories": {
+    "test": "test"
+  }
+}
